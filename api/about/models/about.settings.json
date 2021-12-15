@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "AboutTxt",
+  "info": {
+    "name": "About",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about_me_txt": {
+      "type": "text",
+      "required": true,
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris magna lacus, mollis vitae dignissim in, molestie id odio. Cras non ipsum eget tortor euismod sodales at sed nunc. Duis eu auctor ex. Integer finibus, est sed rhoncus sodales, diam dui consectetur sem, nec cursus tortor tellus at est. Sed in ligula gravida, luctus velit vitae, ultricies sem. Maecenas malesuada tortor vel ipsum sagittis semper. Aliquam mattis et odio sit amet sodales."
+    }
+  }
+}
