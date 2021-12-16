@@ -28,6 +28,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "my_vision_txt": {
+      "type": "text"
     }
   }
 }
