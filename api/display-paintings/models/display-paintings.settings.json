@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "display_paintings",
+  "info": {
+    "name": "displayPaintings"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "paintings": {
+      "collection": "painting"
+    }
+  }
+}
