@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "location_based": {
+      "type": "string"
+    },
+    "shipping_info": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
