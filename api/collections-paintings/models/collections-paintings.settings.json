@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "collections_paintings",
+  "info": {
+    "name": "PaintingCollections",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "paintings": {
+      "via": "painting_collection",
+      "collection": "painting"
+    },
+    "collectionTitle": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}

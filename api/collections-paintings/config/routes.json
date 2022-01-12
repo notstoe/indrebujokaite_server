@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/collections-paintings",
+      "handler": "collections-paintings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/collections-paintings/count",
+      "handler": "collections-paintings.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/collections-paintings/:id",
+      "handler": "collections-paintings.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/collections-paintings",
+      "handler": "collections-paintings.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/collections-paintings/:id",
+      "handler": "collections-paintings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/collections-paintings/:id",
+      "handler": "collections-paintings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
