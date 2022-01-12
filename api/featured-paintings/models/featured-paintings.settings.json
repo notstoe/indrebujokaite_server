@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "display_paintings",
+  "kind": "singleType",
+  "collectionName": "featured_paintings",
   "info": {
-    "name": "displayPaintings"
+    "name": "Featured Paintings"
   },
   "options": {
     "increments": true,

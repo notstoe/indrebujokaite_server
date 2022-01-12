@@ -37,13 +37,9 @@
       "type": "boolean",
       "default": true
     },
-    "collection_type": {
-      "type": "enumeration",
-      "enum": [
-        "Landscapes",
-        "Modern_Blocks",
-        "Contemporary_Fine_Art"
-      ]
+    "painting_collection": {
+      "via": "paintings",
+      "model": "collections-paintings"
     }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/featured-paintings",
+      "handler": "featured-paintings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/featured-paintings",
+      "handler": "featured-paintings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/featured-paintings",
+      "handler": "featured-paintings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
