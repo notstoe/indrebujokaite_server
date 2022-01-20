@@ -13,25 +13,35 @@
   "pluginOptions": {},
   "attributes": {
     "phone": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "location_based": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "shipping_info": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "instagram": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "email": {
       "type": "email"
     },
     "facebook": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "call_to_action_small_txt": {
+      "type": "string",
+      "required": false
     }
   }
 }

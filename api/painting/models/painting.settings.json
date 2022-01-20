@@ -18,7 +18,8 @@
       "unique": false
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "price": {
       "type": "decimal"
